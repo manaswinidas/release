@@ -251,6 +251,7 @@ presubmits:
     branches:
     - ^main$
     - ^main-
+    cluster: build12
     context: ci/prow/opp-images
     decorate: true
     decoration_config:
